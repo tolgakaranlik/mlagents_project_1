@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1691424013",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\tolga\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn ./basic.yaml --run-id big4",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1691424035"
+    },
+    "total": 21.732166300000003,
+    "count": 1,
+    "self": 0.010388600000002413,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07770330000000003,
+            "count": 1,
+            "self": 0.07770330000000003
+        },
+        "TrainerController.start_learning": {
+            "total": 21.6440744,
+            "count": 1,
+            "self": 8.38000000022987e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 21.64398,
+                    "count": 1,
+                    "self": 21.64398
+                },
+                "TrainerController._save_models": {
+                    "total": 1.0599999999527654e-05,
+                    "count": 1,
+                    "self": 1.0599999999527654e-05
+                }
+            }
+        }
+    }
+}

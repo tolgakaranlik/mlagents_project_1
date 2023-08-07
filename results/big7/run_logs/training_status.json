@@ -1,0 +1,65 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 999954,
+                "file_path": "results\\big7\\My Behavior\\My Behavior-999954.onnx",
+                "reward": 9025.153374233128,
+                "creation_time": 1691424944.2121344,
+                "auxillary_file_paths": [
+                    "results\\big7\\My Behavior\\My Behavior-999954.pt"
+                ]
+            },
+            {
+                "steps": 1499972,
+                "file_path": "results\\big7\\My Behavior\\My Behavior-1499972.onnx",
+                "reward": -506.4102564102564,
+                "creation_time": 1691425180.4139247,
+                "auxillary_file_paths": [
+                    "results\\big7\\My Behavior\\My Behavior-1499972.pt"
+                ]
+            },
+            {
+                "steps": 1999994,
+                "file_path": "results\\big7\\My Behavior\\My Behavior-1999994.onnx",
+                "reward": -1000.0,
+                "creation_time": 1691425432.5848606,
+                "auxillary_file_paths": [
+                    "results\\big7\\My Behavior\\My Behavior-1999994.pt"
+                ]
+            },
+            {
+                "steps": 2499999,
+                "file_path": "results\\big7\\My Behavior\\My Behavior-2499999.onnx",
+                "reward": -1000.0,
+                "creation_time": 1691425753.5933409,
+                "auxillary_file_paths": [
+                    "results\\big7\\My Behavior\\My Behavior-2499999.pt"
+                ]
+            },
+            {
+                "steps": 2538570,
+                "file_path": "results\\big7\\My Behavior\\My Behavior-2538570.onnx",
+                "reward": -1000.0,
+                "creation_time": 1691425779.0002697,
+                "auxillary_file_paths": [
+                    "results\\big7\\My Behavior\\My Behavior-2538570.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2538570,
+            "file_path": "results\\big7\\My Behavior.onnx",
+            "reward": -1000.0,
+            "creation_time": 1691425779.0002697,
+            "auxillary_file_paths": [
+                "results\\big7\\My Behavior\\My Behavior-2538570.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

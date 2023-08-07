@@ -1,0 +1,65 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499997,
+                "file_path": "results\\big9\\My Behavior\\My Behavior-499997.onnx",
+                "reward": -825.4545454545455,
+                "creation_time": 1691428588.800804,
+                "auxillary_file_paths": [
+                    "results\\big9\\My Behavior\\My Behavior-499997.pt"
+                ]
+            },
+            {
+                "steps": 999984,
+                "file_path": "results\\big9\\My Behavior\\My Behavior-999984.onnx",
+                "reward": -800.0,
+                "creation_time": 1691428788.388797,
+                "auxillary_file_paths": [
+                    "results\\big9\\My Behavior\\My Behavior-999984.pt"
+                ]
+            },
+            {
+                "steps": 1499953,
+                "file_path": "results\\big9\\My Behavior\\My Behavior-1499953.onnx",
+                "reward": -439.2857142857143,
+                "creation_time": 1691428984.782777,
+                "auxillary_file_paths": [
+                    "results\\big9\\My Behavior\\My Behavior-1499953.pt"
+                ]
+            },
+            {
+                "steps": 1999987,
+                "file_path": "results\\big9\\My Behavior\\My Behavior-1999987.onnx",
+                "reward": 5606.382978723404,
+                "creation_time": 1691429182.0665581,
+                "auxillary_file_paths": [
+                    "results\\big9\\My Behavior\\My Behavior-1999987.pt"
+                ]
+            },
+            {
+                "steps": 2000074,
+                "file_path": "results\\big9\\My Behavior\\My Behavior-2000074.onnx",
+                "reward": 5542.105263157895,
+                "creation_time": 1691429182.1052568,
+                "auxillary_file_paths": [
+                    "results\\big9\\My Behavior\\My Behavior-2000074.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000074,
+            "file_path": "results\\big9\\My Behavior.onnx",
+            "reward": 5542.105263157895,
+            "creation_time": 1691429182.1052568,
+            "auxillary_file_paths": [
+                "results\\big9\\My Behavior\\My Behavior-2000074.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}
